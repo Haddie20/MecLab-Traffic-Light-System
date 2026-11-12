@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic-light</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scene">
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="vis.mp4" type="video/mp4" />
+    does not support the video tag.
+  </video>
+
+</div>
+<div class="road-scene">
+    <div class="road">
+      <div class="lane-line edge-left"></div>
+      <div class="lane-line center"></div>
+    <div class="lane-line edge-right"></div>
+    </div>
+</div>
+<div class="traffic-light-stand right">
+  <div class="traffic-light right">
+    <div class="light red right"></div>
+    <div class="light yellow right"></div>
+    <div class="light green right"></div>
+  </div>
+  <div class="traffic-light-bar"></div>
+  <div class="traffic-stand"></div>
+</div>
+<img src="carr1.png" class="car" id="car1">
+<img src="carr3.png" class="car" id="car3">
+<img src="carr6.png" class="car" id="car6">
+<img src="carr7.png" class="car" id="car7">
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
